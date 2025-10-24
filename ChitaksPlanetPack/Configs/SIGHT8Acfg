@@ -2,8 +2,8 @@
 {
     Body
     {
-        name = SIGHT8B1
-        cacheFile = ChitaksPlanetPack/Cache/SIGHT8B1.bin
+        name = SIGHT8A
+        cacheFile = ChitaksPlanetPack/Cache/SIGHT8A.bin
         contractWeight = 10
         Template
         {
@@ -12,8 +12,8 @@
         }
         Properties
         {
-            displayName = SIGHT-8B-1
-            description = The first black hole of the SIGHT-8B binary black hole system. It seems to be bigger and more massive than its partner.
+            displayName = SIGHT-8A
+            description = The first black hole of the SIGHT-8 binary black hole system. It seems to be bigger and more massive than its partner.
             geeASL = 100
             sphereOfInfluence = 10000000000
             radius = 1000000000
@@ -36,7 +36,7 @@
         }
         Orbit
         {
-            referenceBody = SIGHT8BBarycenter
+            referenceBody = SIGHT8Barycenter
             color = 1,1,1,1
             inclination = 45
             eccentricity = 0.01
